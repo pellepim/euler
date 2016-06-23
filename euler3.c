@@ -19,7 +19,7 @@ long int biggest_prime_factor(long int n) {
 	factorize(n, &primes);
 	printf("Prime factors: [");
 	for (int i = 0; i < primes.size; i++) {
-		printf("%d", primes.data[i]);
+		printf("%ld", primes.data[i]);
 		if (i < primes.size - 1) {
 			printf(", ");
 		}
