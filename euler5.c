@@ -15,7 +15,7 @@ int main() {
 		if (done) {
 			break;
 		} else {
-			candidate += 2;
+			candidate += 20;
 		}
 	}
 
