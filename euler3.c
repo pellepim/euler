@@ -10,7 +10,6 @@ long int biggest_prime_factor(long int n) {
 	if (is_prime(n)) {
 		printf("%ld is a prime number!\n", n);
 		return n;
-
 	}
 
 	Vector primes;
@@ -37,6 +36,6 @@ int main(int argc, char *argv[]) {
 	char *ptr;
 	long int subject = strtol(argv[1], &ptr, 10);
 
-	printf("%ld\n", biggest_prime_factor(subject));
+	printf("Biggest prime is: %ld\n", biggest_prime_factor(subject));
 
 }
