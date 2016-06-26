@@ -55,3 +55,12 @@ void factorize(long int n, Vector *factors) {
 		if (remainder == 1) return;
 	}
 }
+
+int digit_to_int(char d) {
+ char str[2];
+
+ str[0] = d;
+ str[1] = '\0';
+ return (int) strtol(str, NULL, 10);
+}
+
