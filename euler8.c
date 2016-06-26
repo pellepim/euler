@@ -3,18 +3,6 @@
 #include <unistd.h>
 #include "euler.h"
 
-unsigned count_digits (unsigned i) {
-	if (i > 0) {
-		return (int) log10 ((double) i) + 1;
-	}
-	return 1;
-}
-
-
-void convert_to_array(char huge_number[], int *digit_array[]) {
-
-}
-
 const char * huge_number[] = {
 	"73167176531330624919225119674426574742355349194934",
 	"96983520312774506326239578318016984801869478851843",
@@ -40,9 +28,6 @@ const char * huge_number[] = {
 
 #define number_parts (sizeof (huge_number) / sizeof (const char *))
 
-/**
- * Takes the array of numbers
- */
 int move_and_multiply(int number_array[], int *current_index) {
 
 	long int current_product = 1;
