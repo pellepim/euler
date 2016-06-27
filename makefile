@@ -7,3 +7,4 @@ all:
 	gcc euler6.c vector.c euler.c -o euler6.o -lm
 	gcc euler7.c vector.c euler.c -o euler7.o -lm
 	gcc euler8.c vector.c euler.c -o euler8.o -lm
+	gcc euler9.c -o euler9.o
